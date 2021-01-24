@@ -13,7 +13,7 @@ object Versions {
     const val Gradle = "4.0.1"
     const val Kotlin = "1.3.61"
     const val CoreKtx = "1.3.1"
-    const val Coroutine = "1.3.3"
+    const val Coroutine = "1.3.1"
     const val Appcompat = "1.1.0"
     const val ConstraintLayout = "2.0.0-beta4"
     const val Lifecycle = "2.2.0"
@@ -23,7 +23,6 @@ object Versions {
     const val Picasso = "2.71828"
     const val Browser = "1.0.0"
     const val Preference = "1.1.0"
-    const val Anko = "0.10.5"
     const val JavaxAnnotation = "1.2"
 
     // dagger dependency versions
@@ -85,10 +84,10 @@ object TestLibs {
 
 
 object Libs {
-    const val anko = "org.jetbrains.anko:anko:${Versions.Anko}"
 
     const val kotlinStd = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.Kotlin}"
     const val kotlinCoroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.Coroutine}"
+    const val kotlinCoroutineCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.Coroutine}"
     const val coreKtx = "androidx.core:core-ktx:${Versions.CoreKtx}"
     const val appcompat = "androidx.appcompat:appcompat:${Versions.Appcompat}"
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.ConstraintLayout}"

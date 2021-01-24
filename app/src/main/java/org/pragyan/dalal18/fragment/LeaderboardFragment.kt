@@ -18,17 +18,13 @@ import dalalstreet.api.actions.GetLeaderboardResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.jetbrains.anko.longToast
 import org.pragyan.dalal18.R
 import org.pragyan.dalal18.adapter.LeaderboardRecyclerAdapter
 import org.pragyan.dalal18.dagger.ContextModule
 import org.pragyan.dalal18.dagger.DaggerDalalStreetApplicationComponent
 import org.pragyan.dalal18.data.LeaderBoardDetails
 import org.pragyan.dalal18.databinding.FragmentLeaderboardBinding
-import org.pragyan.dalal18.utils.ConnectionUtils
-import org.pragyan.dalal18.utils.Constants
-import org.pragyan.dalal18.utils.MiscellaneousUtils
-import org.pragyan.dalal18.utils.viewLifecycle
+import org.pragyan.dalal18.utils.*
 import java.util.*
 import javax.inject.Inject
 

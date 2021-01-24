@@ -118,8 +118,8 @@ dependencies {
 
     // Kotlin libraries
     implementation (Libs.kotlinStd)
-    implementation (Libs.anko)
     implementation (Libs.kotlinCoroutine)
+    implementation (Libs.kotlinCoroutineCore)
 
     // Navigation
     implementation (Libs.navigationArchFragmentKtx)
